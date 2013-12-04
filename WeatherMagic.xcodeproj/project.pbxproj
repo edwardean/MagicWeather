@@ -230,7 +230,6 @@
 		3C34A7E9165F1312002EF709 /* a_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a_7.png; sourceTree = "<group>"; };
 		3C34A7EA165F1312002EF709 /* a_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a_8.png; sourceTree = "<group>"; };
 		3C34A7EB165F1312002EF709 /* a_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a_9.png; sourceTree = "<group>"; };
-		3C34A7EC165F1312002EF709 /* 天气排版3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "天气排版3.jpg"; sourceTree = "<group>"; };
 		3C34A83C165F15B7002EF709 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		3C34A83D165F15B7002EF709 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		3C34A83E165F15B7002EF709 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -411,7 +410,6 @@
 				3C34A797165F1312002EF709 /* animation_images */,
 				3C34A7AD165F1312002EF709 /* screen_bg_images */,
 				3C34A7B9165F1312002EF709 /* weather_images */,
-				3C34A7EC165F1312002EF709 /* 天气排版3.jpg */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -609,10 +607,10 @@
 		737E184712BC4543005E3F41 /* WeatherView */ = {
 			isa = PBXGroup;
 			children = (
+				737FAA1D12B70F3B00748F28 /* MacroDefines.h */,
 				737E187512BC4809005E3F41 /* UIView+Extend.h */,
 				73BE29AC12C478F00054132B /* BaseWeatherView.h */,
 				73BE29AD12C478F00054132B /* BaseWeatherView.m */,
-				737FAA1D12B70F3B00748F28 /* MacroDefines.h */,
 				73BE29AF12C479400054132B /* BasePaticalView.h */,
 				73BE29B012C479400054132B /* BasePaticalView.m */,
 				738F7CB612B5B6EB00FA37AC /* BlurringView.h */,
